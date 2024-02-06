@@ -1,9 +1,0 @@
-@baseUrl = http://localhost:3333
-
-# @name create_poll
-POST {{baseUrl}}/polls
-Content-Type: application/json
-
-{
-  "title": "Testando a enquete"
-}
